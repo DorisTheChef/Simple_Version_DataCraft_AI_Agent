@@ -1,0 +1,602 @@
+[
+  {
+    "name": "Katie Davis",
+    "age": 93,
+    "gender": "Male",
+    "disease": "Cancer"
+  },
+  {
+    "name": "Jane Smith",
+    "age": 31,
+    "gender": "Male",
+    "disease": "Hypertension"
+  },
+  {
+    "name": "Alex Miller",
+    "age": 7,
+    "gender": "Male",
+    "disease": "Asthma"
+  },
+  {
+    "name": "Sophia Jones",
+    "age": 36,
+    "gender": "Male",
+    "disease": "Flu"
+  },
+  {
+    "name": "Jane Martinez",
+    "age": 77,
+    "gender": "Male",
+    "disease": "Flu"
+  },
+  {
+    "name": "Chris Miller",
+    "age": 29,
+    "gender": "Female",
+    "disease": "Flu"
+  },
+  {
+    "name": "Emily Jones",
+    "age": 25,
+    "gender": "Female",
+    "disease": "Hypertension"
+  },
+  {
+    "name": "Katie Jones",
+    "age": 89,
+    "gender": "Female",
+    "disease": "COVID-19"
+  },
+  {
+    "name": "Alex Johnson",
+    "age": 60,
+    "gender": "Female",
+    "disease": "COVID-19"
+  },
+  {
+    "name": "Emily Martinez",
+    "age": 36,
+    "gender": "Female",
+    "disease": "Diabetes"
+  },
+  {
+    "name": "Chris Jones",
+    "age": 42,
+    "gender": "Female",
+    "disease": "Diabetes"
+  },
+  {
+    "name": "Laura Garcia",
+    "age": 55,
+    "gender": "Male",
+    "disease": "Allergy"
+  },
+  {
+    "name": "Mike Brown",
+    "age": 66,
+    "gender": "Female",
+    "disease": "COVID-19"
+  },
+  {
+    "name": "David Brown",
+    "age": 4,
+    "gender": "Female",
+    "disease": "Allergy"
+  },
+  {
+    "name": "Sophia Garcia",
+    "age": 64,
+    "gender": "Male",
+    "disease": "Cancer"
+  },
+  {
+    "name": "Alex Jones",
+    "age": 50,
+    "gender": "Male",
+    "disease": "Allergy"
+  },
+  {
+    "name": "John Lee",
+    "age": 91,
+    "gender": "Female",
+    "disease": "Asthma"
+  },
+  {
+    "name": "Katie Davis",
+    "age": 45,
+    "gender": "Female",
+    "disease": "Hypertension"
+  },
+  {
+    "name": "Emily Jones",
+    "age": 34,
+    "gender": "Female",
+    "disease": "Arthritis"
+  },
+  {
+    "name": "Katie Miller",
+    "age": 52,
+    "gender": "Female",
+    "disease": "Allergy"
+  },
+  {
+    "name": "Jane Smith",
+    "age": 52,
+    "gender": "Male",
+    "disease": "Arthritis"
+  },
+  {
+    "name": "Emily Jones",
+    "age": 56,
+    "gender": "Male",
+    "disease": "Arthritis"
+  },
+  {
+    "name": "Katie Brown",
+    "age": 5,
+    "gender": "Male",
+    "disease": "Asthma"
+  },
+  {
+    "name": "Katie Jones",
+    "age": 85,
+    "gender": "Female",
+    "disease": "Diabetes"
+  },
+  {
+    "name": "Mike Jones",
+    "age": 59,
+    "gender": "Female",
+    "disease": "Diabetes"
+  },
+  {
+    "name": "Emily Martinez",
+    "age": 46,
+    "gender": "Female",
+    "disease": "COVID-19"
+  },
+  {
+    "name": "David Garcia",
+    "age": 49,
+    "gender": "Male",
+    "disease": "Allergy"
+  },
+  {
+    "name": "Chris Williams",
+    "age": 72,
+    "gender": "Female",
+    "disease": "Diabetes"
+  },
+  {
+    "name": "Sophia Davis",
+    "age": 94,
+    "gender": "Male",
+    "disease": "Cancer"
+  },
+  {
+    "name": "David Miller",
+    "age": 7,
+    "gender": "Male",
+    "disease": "Cancer"
+  },
+  {
+    "name": "Katie Davis",
+    "age": 12,
+    "gender": "Female",
+    "disease": "COVID-19"
+  },
+  {
+    "name": "Emily Jones",
+    "age": 82,
+    "gender": "Male",
+    "disease": "Asthma"
+  },
+  {
+    "name": "Sophia Williams",
+    "age": 87,
+    "gender": "Male",
+    "disease": "COVID-19"
+  },
+  {
+    "name": "Katie Williams",
+    "age": 52,
+    "gender": "Female",
+    "disease": "Hypertension"
+  },
+  {
+    "name": "John Garcia",
+    "age": 50,
+    "gender": "Male",
+    "disease": "Cancer"
+  },
+  {
+    "name": "Chris Davis",
+    "age": 69,
+    "gender": "Female",
+    "disease": "Cancer"
+  },
+  {
+    "name": "Chris Martinez",
+    "age": 94,
+    "gender": "Male",
+    "disease": "Arthritis"
+  },
+  {
+    "name": "John Brown",
+    "age": 73,
+    "gender": "Female",
+    "disease": "Allergy"
+  },
+  {
+    "name": "Sophia Johnson",
+    "age": 40,
+    "gender": "Male",
+    "disease": "Asthma"
+  },
+  {
+    "name": "John Martinez",
+    "age": 68,
+    "gender": "Female",
+    "disease": "Allergy"
+  },
+  {
+    "name": "Sophia Davis",
+    "age": 54,
+    "gender": "Male",
+    "disease": "Cancer"
+  },
+  {
+    "name": "Emily Smith",
+    "age": 69,
+    "gender": "Male",
+    "disease": "Hypertension"
+  },
+  {
+    "name": "Sophia Johnson",
+    "age": 94,
+    "gender": "Female",
+    "disease": "Hypertension"
+  },
+  {
+    "name": "Katie Martinez",
+    "age": 27,
+    "gender": "Female",
+    "disease": "Diabetes"
+  },
+  {
+    "name": "Laura Martinez",
+    "age": 1,
+    "gender": "Female",
+    "disease": "Hypertension"
+  },
+  {
+    "name": "John Davis",
+    "age": 23,
+    "gender": "Female",
+    "disease": "COVID-19"
+  },
+  {
+    "name": "Laura Miller",
+    "age": 20,
+    "gender": "Male",
+    "disease": "Asthma"
+  },
+  {
+    "name": "Sophia Martinez",
+    "age": 84,
+    "gender": "Female",
+    "disease": "Allergy"
+  },
+  {
+    "name": "Mike Miller",
+    "age": 88,
+    "gender": "Female",
+    "disease": "Diabetes"
+  },
+  {
+    "name": "Mike Garcia",
+    "age": 72,
+    "gender": "Male",
+    "disease": "Asthma"
+  },
+  {
+    "name": "David Davis",
+    "age": 98,
+    "gender": "Male",
+    "disease": "Allergy"
+  },
+  {
+    "name": "Emily Jones",
+    "age": 74,
+    "gender": "Female",
+    "disease": "Allergy"
+  },
+  {
+    "name": "Katie Smith",
+    "age": 30,
+    "gender": "Male",
+    "disease": "Arthritis"
+  },
+  {
+    "name": "Mike Miller",
+    "age": 67,
+    "gender": "Female",
+    "disease": "Arthritis"
+  },
+  {
+    "name": "Emily Davis",
+    "age": 88,
+    "gender": "Female",
+    "disease": "COVID-19"
+  },
+  {
+    "name": "Jane Smith",
+    "age": 11,
+    "gender": "Female",
+    "disease": "Flu"
+  },
+  {
+    "name": "Sophia Lee",
+    "age": 52,
+    "gender": "Female",
+    "disease": "Cancer"
+  },
+  {
+    "name": "John Miller",
+    "age": 12,
+    "gender": "Male",
+    "disease": "Allergy"
+  },
+  {
+    "name": "Emily Davis",
+    "age": 25,
+    "gender": "Male",
+    "disease": "Flu"
+  },
+  {
+    "name": "Alex Smith",
+    "age": 94,
+    "gender": "Male",
+    "disease": "COVID-19"
+  },
+  {
+    "name": "Alex Smith",
+    "age": 62,
+    "gender": "Female",
+    "disease": "Diabetes"
+  },
+  {
+    "name": "Katie Martinez",
+    "age": 50,
+    "gender": "Female",
+    "disease": "Asthma"
+  },
+  {
+    "name": "Sophia Johnson",
+    "age": 28,
+    "gender": "Female",
+    "disease": "Asthma"
+  },
+  {
+    "name": "John Martinez",
+    "age": 93,
+    "gender": "Female",
+    "disease": "Arthritis"
+  },
+  {
+    "name": "Sophia Brown",
+    "age": 43,
+    "gender": "Female",
+    "disease": "Diabetes"
+  },
+  {
+    "name": "David Miller",
+    "age": 1,
+    "gender": "Female",
+    "disease": "Asthma"
+  },
+  {
+    "name": "Katie Garcia",
+    "age": 54,
+    "gender": "Female",
+    "disease": "Diabetes"
+  },
+  {
+    "name": "Sophia Brown",
+    "age": 22,
+    "gender": "Female",
+    "disease": "Arthritis"
+  },
+  {
+    "name": "Katie Lee",
+    "age": 33,
+    "gender": "Female",
+    "disease": "Asthma"
+  },
+  {
+    "name": "Alex Garcia",
+    "age": 4,
+    "gender": "Female",
+    "disease": "Hypertension"
+  },
+  {
+    "name": "Laura Garcia",
+    "age": 16,
+    "gender": "Male",
+    "disease": "Flu"
+  },
+  {
+    "name": "Emily Johnson",
+    "age": 59,
+    "gender": "Male",
+    "disease": "COVID-19"
+  },
+  {
+    "name": "Sophia Lee",
+    "age": 73,
+    "gender": "Male",
+    "disease": "Hypertension"
+  },
+  {
+    "name": "Sophia Garcia",
+    "age": 58,
+    "gender": "Male",
+    "disease": "Cancer"
+  },
+  {
+    "name": "Emily Johnson",
+    "age": 75,
+    "gender": "Female",
+    "disease": "Asthma"
+  },
+  {
+    "name": "Jane Martinez",
+    "age": 43,
+    "gender": "Female",
+    "disease": "Allergy"
+  },
+  {
+    "name": "John Smith",
+    "age": 42,
+    "gender": "Female",
+    "disease": "Allergy"
+  },
+  {
+    "name": "Sophia Brown",
+    "age": 87,
+    "gender": "Female",
+    "disease": "Hypertension"
+  },
+  {
+    "name": "John Garcia",
+    "age": 76,
+    "gender": "Male",
+    "disease": "Cancer"
+  },
+  {
+    "name": "Laura Brown",
+    "age": 95,
+    "gender": "Female",
+    "disease": "Hypertension"
+  },
+  {
+    "name": "Laura Brown",
+    "age": 67,
+    "gender": "Male",
+    "disease": "Diabetes"
+  },
+  {
+    "name": "Jane Garcia",
+    "age": 90,
+    "gender": "Male",
+    "disease": "Cancer"
+  },
+  {
+    "name": "Mike Johnson",
+    "age": 33,
+    "gender": "Male",
+    "disease": "Asthma"
+  },
+  {
+    "name": "Katie Brown",
+    "age": 80,
+    "gender": "Female",
+    "disease": "Diabetes"
+  },
+  {
+    "name": "Alex Williams",
+    "age": 90,
+    "gender": "Female",
+    "disease": "Hypertension"
+  },
+  {
+    "name": "Sophia Johnson",
+    "age": 54,
+    "gender": "Male",
+    "disease": "COVID-19"
+  },
+  {
+    "name": "Katie Williams",
+    "age": 31,
+    "gender": "Male",
+    "disease": "Cancer"
+  },
+  {
+    "name": "Katie Johnson",
+    "age": 81,
+    "gender": "Female",
+    "disease": "Diabetes"
+  },
+  {
+    "name": "Mike Martinez",
+    "age": 42,
+    "gender": "Female",
+    "disease": "COVID-19"
+  },
+  {
+    "name": "Chris Jones",
+    "age": 69,
+    "gender": "Male",
+    "disease": "Flu"
+  },
+  {
+    "name": "Chris Brown",
+    "age": 20,
+    "gender": "Male",
+    "disease": "Hypertension"
+  },
+  {
+    "name": "Laura Brown",
+    "age": 7,
+    "gender": "Female",
+    "disease": "Cancer"
+  },
+  {
+    "name": "Chris Garcia",
+    "age": 51,
+    "gender": "Female",
+    "disease": "Diabetes"
+  },
+  {
+    "name": "Emily Johnson",
+    "age": 40,
+    "gender": "Female",
+    "disease": "Cancer"
+  },
+  {
+    "name": "Alex Jones",
+    "age": 73,
+    "gender": "Male",
+    "disease": "Allergy"
+  },
+  {
+    "name": "Chris Davis",
+    "age": 57,
+    "gender": "Female",
+    "disease": "Diabetes"
+  },
+  {
+    "name": "Mike Smith",
+    "age": 80,
+    "gender": "Male",
+    "disease": "Arthritis"
+  },
+  {
+    "name": "John Davis",
+    "age": 56,
+    "gender": "Male",
+    "disease": "COVID-19"
+  },
+  {
+    "name": "Katie Garcia",
+    "age": 46,
+    "gender": "Female",
+    "disease": "Allergy"
+  },
+  {
+    "name": "Chris Miller",
+    "age": 13,
+    "gender": "Male",
+    "disease": "Hypertension"
+  }
+]

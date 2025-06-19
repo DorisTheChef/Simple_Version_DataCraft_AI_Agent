@@ -1,24 +1,30 @@
-import random
+import google.generativeai as genai
+import os
 import json
 
-first_names = ["John", "Jane", "Alex", "Emily", "Chris", "Katie", "Mike", "Laura", "David", "Sophia"]
-last_names = ["Smith", "Johnson", "Williams", "Brown", "Jones", "Garcia", "Miller", "Davis", "Martinez", "Lee"]
-genders = ["Male", "Female"]
-diseases = ["Diabetes", "Hypertension", "Asthma", "Flu", "COVID-19", "Cancer", "Allergy", "Arthritis"]
+# 设置你的 Gemini API 密钥
+import os
 
-def generate_patient():
-    return {
-        "name": f"{random.choice(first_names)} {random.choice(last_names)}",
-        "age": random.randint(1, 100),
-        "gender": random.choice(genders),
-        "disease": random.choice(diseases)
-    }
+api_key = os.environ.get("GOOGLE_API_KEY")
+print(api_key)
 
-def generate_patients(n=100):
-    return [generate_patient() for _ in range(n)]
+def generate_patients_with_gemini(count=100):
+    prompt = (
+        f"请生成{count}个虚拟病人信息，每个病人包含姓名、年龄、性别、疾病。"
+        "请用JSON数组格式返回，每个元素是一个对象，字段为name, age, gender, disease。"
+        "姓名用中英文混合，疾病可以常见疾病。"
+    )
+    model = genai.GenerativeModel("gemini-2.0-flash")
+    response = model.generate_content(prompt)
+    # 解析 Gemini 返回的 JSON
+    try:
+        patients = json.loads(response.text)
+    except Exception:
+        patients = response.text
+    return patients
 
 if __name__ == "__main__":
-    patients = generate_patients(100)
-    with open("patients.json", "w") as f:
-        json.dump(patients, f, indent=2)
-    print("Generated 100 virtual patients and saved to patients.json")
+    patients = generate_patients_with_gemini(100)
+    with open("gemini_patients.json", "w") as f:
+        json.dump(patients, f, ensure_ascii=False, indent=2)
+    print("Generated 100 virtual patients using Gemini API and saved to gemini_patients.json")
