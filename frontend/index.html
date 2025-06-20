@@ -8,18 +8,47 @@
   <h1>虚拟病人生成器</h1>
   <label>生成数量: <input id="count" type="number" value="5" min="1" max="100"></label>
   <button onclick="generatePatients()">生成</button>
+  <button onclick="downloadCSV()">下载CSV</button>
   <pre id="result"></pre>
   <script>
+    let lastData = [];
+
     function generatePatients() {
       const count = document.getElementById('count').value;
       fetch(`http://127.0.0.1:5001/generate_patients?count=${count}`)
         .then(response => response.json())
         .then(data => {
+          lastData = data;
           document.getElementById('result').textContent = JSON.stringify(data, null, 2);
         })
         .catch(error => {
           document.getElementById('result').textContent = 'Error: ' + error;
         });
+    }
+
+    function downloadCSV() {
+    console.log(lastData); // 调试用
+
+    if (!lastData.length) {
+        alert("请先生成数据！");
+        return;
+    }
+    const headers = Object.keys(lastData[0]);
+    const csvRows = [
+        headers.join(','), // 表头
+        ...lastData.map(row => headers.map(h => `"${row[h]}"`).join(','))
+    ];
+    const csvContent = csvRows.join('\n');
+    const blob = new Blob([csvContent], { type: 'text/csv' });
+    const url = URL.createObjectURL(blob);
+
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'patients.csv';
+    document.body.appendChild(a); // 关键：添加到DOM
+    a.click();
+    document.body.removeChild(a); // 关键：移除
+    URL.revokeObjectURL(url);
     }
   </script>
 </body>
