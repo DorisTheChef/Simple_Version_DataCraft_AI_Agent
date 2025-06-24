@@ -1,0 +1,696 @@
+好的，这是一份包含100个虚拟病人信息的JSON数组：
+
+```json
+[
+  {
+    "name": "李文涛",
+    "age": 45,
+    "gender": "Male",
+    "disease": "高血压"
+  },
+  {
+    "name": "Sarah Johnson",
+    "age": 62,
+    "gender": "Female",
+    "disease": "糖尿病"
+  },
+  {
+    "name": "王丽华",
+    "age": 30,
+    "gender": "Female",
+    "disease": "过敏性鼻炎"
+  },
+  {
+    "name": "Michael Brown",
+    "age": 70,
+    "gender": "Male",
+    "disease": "冠心病"
+  },
+  {
+    "name": "陈晓燕",
+    "age": 25,
+    "gender": "Female",
+    "disease": "感冒"
+  },
+  {
+    "name": "David Miller",
+    "age": 55,
+    "gender": "Male",
+    "disease": "胃炎"
+  },
+  {
+    "name": "张建国",
+    "age": 68,
+    "gender": "Male",
+    "disease": "关节炎"
+  },
+  {
+    "name": "Emily Davis",
+    "age": 40,
+    "gender": "Female",
+    "disease": "偏头痛"
+  },
+  {
+    "name": "刘敏捷",
+    "age": 50,
+    "gender": "Female",
+    "disease": "甲状腺功能减退"
+  },
+  {
+    "name": "James Rodriguez",
+    "age": 75,
+    "gender": "Male",
+    "disease": "帕金森病"
+  },
+  {
+    "name": "杨秀英",
+    "age": 38,
+    "gender": "Female",
+    "disease": "慢性支气管炎"
+  },
+  {
+    "name": "Robert Garcia",
+    "age": 28,
+    "gender": "Male",
+    "disease": "阑尾炎"
+  },
+  {
+    "name": "赵志强",
+    "age": 80,
+    "gender": "Male",
+    "disease": "阿尔茨海默病"
+  },
+  {
+    "name": "Linda Martinez",
+    "age": 60,
+    "gender": "Female",
+    "disease": "胆囊炎"
+  },
+  {
+    "name": "黄文涛",
+    "age": 33,
+    "gender": "Male",
+    "disease": "尿路感染"
+  },
+  {
+    "name": "Susan Hernandez",
+    "age": 48,
+    "gender": "Female",
+    "disease": "腰椎间盘突出"
+  },
+  {
+    "name": "周翠兰",
+    "age": 72,
+    "gender": "Female",
+    "disease": "骨质疏松症"
+  },
+  {
+    "name": "Richard Lopez",
+    "age": 58,
+    "gender": "Male",
+    "disease": "痛风"
+  },
+  {
+    "name": "吴俊杰",
+    "age": 12,
+    "gender": "Male",
+    "disease": "哮喘"
+  },
+  {
+    "name": "Jessica Gonzalez",
+    "age": 22,
+    "gender": "Female",
+    "disease": "结膜炎"
+  },
+  {
+    "name": "徐雅静",
+    "age": 65,
+    "gender": "Female",
+    "disease": "白内障"
+  },
+  {
+    "name": "Joseph Wilson",
+    "age": 42,
+    "gender": "Male",
+    "disease": "肾结石"
+  },
+  {
+    "name": "孙海涛",
+    "age": 35,
+    "gender": "Male",
+    "disease": "单纯性肥胖"
+  },
+  {
+    "name": "Karen Anderson",
+    "age": 53,
+    "gender": "Female",
+    "disease": "脂肪肝"
+  },
+  {
+    "name": "马玉芳",
+    "age": 29,
+    "gender": "Female",
+    "disease": "痔疮"
+  },
+  {
+    "name": "Charles Thomas",
+    "age": 67,
+    "gender": "Male",
+    "disease": "颈椎病"
+  },
+  {
+    "name": "朱英杰",
+    "age": 41,
+    "gender": "Male",
+    "disease": "缺铁性贫血"
+  },
+  {
+    "name": "Nancy Taylor",
+    "age": 78,
+    "gender": "Female",
+    "disease": "脑卒中后遗症"
+  },
+  {
+    "name": "胡婷婷",
+    "age": 18,
+    "gender": "Female",
+    "disease": "湿疹"
+  },
+  {
+    "name": "Thomas Moore",
+    "age": 59,
+    "gender": "Male",
+    "disease": "高血压"
+  },
+  {
+    "name": "郭明珠",
+    "age": 52,
+    "gender": "Female",
+    "disease": "糖尿病"
+  },
+  {
+    "name": "Christopher Jackson",
+    "age": 63,
+    "gender": "Male",
+    "disease": "冠心病"
+  },
+  {
+    "name": "何家豪",
+    "age": 20,
+    "gender": "Male",
+    "disease": "感冒"
+  },
+  {
+    "name": "Margaret Martin",
+    "age": 36,
+    "gender": "Female",
+    "disease": "胃炎"
+  },
+  {
+    "name": "高思雨",
+    "age": 7,
+    "gender": "Female",
+    "disease": "哮喘"
+  },
+  {
+    "name": "Daniel White",
+    "age": 49,
+    "gender": "Male",
+    "disease": "关节炎"
+  },
+  {
+    "name": "林泽宇",
+    "age": 85,
+    "gender": "Male",
+    "disease": "阿尔茨海默病"
+  },
+  {
+    "name": "Lisa Harris",
+    "age": 57,
+    "gender": "Female",
+    "disease": "偏头痛"
+  },
+  {
+    "name": "郑欣怡",
+    "age": 26,
+    "gender": "Female",
+    "disease": "过敏性鼻炎"
+  },
+  {
+    "name": "Paul Clark",
+    "age": 71,
+    "gender": "Male",
+    "disease": "痛风"
+  },
+  {
+    "name": "王宇轩",
+    "age": 44,
+    "gender": "Male",
+    "disease": "腰椎间盘突出"
+  },
+  {
+    "name": "Betty Lewis",
+    "age": 69,
+    "gender": "Female",
+    "disease": "骨质疏松症"
+  },
+  {
+    "name": "李嘉怡",
+    "age": 31,
+    "gender": "Female",
+    "disease": "甲状腺功能减退"
+  },
+  {
+    "name": "Mark Robinson",
+    "age": 51,
+    "gender": "Male",
+    "disease": "肾结石"
+  },
+  {
+    "name": "张天宇",
+    "age": 15,
+    "gender": "Male",
+    "disease": "肺炎"
+  },
+  {
+    "name": "Dorothy Walker",
+    "age": 77,
+    "gender": "Female",
+    "disease": "脑卒中后遗症"
+  },
+  {
+    "name": "刘诗涵",
+    "age": 23,
+    "gender": "Female",
+    "disease": "湿疹"
+  },
+  {
+    "name": "George Perez",
+    "age": 64,
+    "gender": "Male",
+    "disease": "糖尿病"
+  },
+  {
+    "name": "陈子轩",
+    "age": 5,
+    "gender": "Male",
+    "disease": "哮喘"
+  },
+  {
+    "name": "Sandra Hall",
+    "age": 39,
+    "gender": "Female",
+    "disease": "慢性支气管炎"
+  },
+  {
+    "name": "杨雨欣",
+    "age": 82,
+    "gender": "Female",
+    "disease": "白内障"
+  },
+  {
+    "name": "Kenneth Young",
+    "age": 47,
+    "gender": "Male",
+    "disease": "高血压"
+  },
+  {
+    "name": "赵梦瑶",
+    "age": 21,
+    "gender": "Female",
+    "disease": "荨麻疹"
+  },
+  {
+    "name": "Steven King",
+    "age": 73,
+    "gender": "Male",
+    "disease": "帕金森病"
+  },
+  {
+    "name": "黄浩宇",
+    "age": 34,
+    "gender": "Male",
+    "disease": "单纯性肥胖"
+  },
+  {
+    "name": "Ashley Wright",
+    "age": 54,
+    "gender": "Female",
+    "disease": "脂肪肝"
+  },
+  {
+    "name": "周子涵",
+    "age": 9,
+    "gender": "Female",
+    "disease": "扁桃体炎"
+  },
+  {
+    "name": "Edward Lopez",
+    "age": 61,
+    "gender": "Male",
+    "disease": "冠心病"
+  },
+  {
+    "name": "吴欣怡",
+    "age": 27,
+    "gender": "Female",
+    "disease": "感冒"
+  },
+  {
+    "name": "Brian Hill",
+    "age": 46,
+    "gender": "Male",
+    "disease": "胃炎"
+  },
+  {
+    "name": "徐伟明",
+    "age": 76,
+    "gender": "Male",
+    "disease": "关节炎"
+  },
+  {
+    "name": "Kimberly Scott",
+    "age": 32,
+    "gender": "Female",
+    "disease": "偏头痛"
+  },
+  {
+    "name": "孙秀英",
+    "age": 88,
+    "gender": "Female",
+    "disease": "阿尔茨海默病"
+  },
+  {
+    "name": "Ronald Green",
+    "age": 56,
+    "gender": "Male",
+    "disease": "胆囊炎"
+  },
+  {
+    "name": "马丽华",
+    "age": 19,
+    "gender": "Female",
+    "disease": "尿路感染"
+  },
+  {
+    "name": "Joseph Baker",
+    "age": 79,
+    "gender": "Male",
+    "disease": "脑卒中后遗症"
+  },
+  {
+    "name": "朱建国",
+    "age": 43,
+    "gender": "Male",
+    "disease": "缺铁性贫血"
+  },
+  {
+    "name": "Donna Adams",
+    "age": 66,
+    "gender": "Female",
+    "disease": "颈椎病"
+  },
+  {
+    "name": "胡晓燕",
+    "age": 10,
+    "gender": "Female",
+    "disease": "扁桃体炎"
+  },
+  {
+    "name": "Gary Nelson",
+    "age": 90,
+    "gender": "Male",
+    "disease": "帕金森病"
+  },
+  {
+    "name": "郭志强",
+    "age": 24,
+    "gender": "Male",
+    "disease": "阑尾炎"
+  },
+  {
+    "name": "Carol Carter",
+    "age": 50,
+    "gender": "Female",
+    "disease": "高血压"
+  },
+  {
+    "name": "何小红",
+    "age": 74,
+    "gender": "Female",
+    "disease": "糖尿病"
+  },
+  {
+    "name": "Frank Mitchell",
+    "age": 60,
+    "gender": "Male",
+    "disease": "冠心病"
+  },
+  {
+    "name": "高敏捷",
+    "age": 8,
+    "gender": "Female",
+    "disease": "哮喘"
+  },
+  {
+    "name": "Eric Roberts",
+    "age": 37,
+    "gender": "Male",
+    "disease": "感冒"
+  },
+  {
+    "name": "林文涛",
+    "age": 83,
+    "gender": "Male",
+    "disease": "骨质疏松症"
+  },
+  {
+    "name": "Michelle Phillips",
+    "age": 55,
+    "gender": "Female",
+    "disease": "胃炎"
+  },
+  {
+    "name": "郑翠兰",
+    "age": 17,
+    "gender": "Female",
+    "disease": "过敏性鼻炎"
+  },
+  {
+    "name": "Jeffrey Campbell",
+    "age": 92,
+    "gender": "Male",
+    "disease": "阿尔茨海默病"
+  },
+  {
+    "name": "王俊杰",
+    "age": 40,
+    "gender": "Male",
+    "disease": "关节炎"
+  },
+  {
+    "name": "Amy Parker",
+    "age": 29,
+    "gender": "Female",
+    "disease": "偏头痛"
+  },
+  {
+    "name": "李雅静",
+    "age": 62,
+    "gender": "Female",
+    "disease": "白内障"
+  },
+  {
+    "name": "Steven Morris",
+    "age": 53,
+    "gender": "Male",
+    "disease": "痛风"
+  },
+  {
+    "name": "张海涛",
+    "age": 30,
+    "gender": "Male",
+    "disease": "肾结石"
+  },
+  {
+    "name": "Angela Reed",
+    "age": 70,
+    "gender": "Female",
+    "disease": "甲状腺功能减退"
+  },
+  {
+    "name": "刘玉芳",
+    "age": 11,
+    "gender": "Female",
+    "disease": "肺炎"
+  },
+  {
+    "name": "Gregory Cox",
+    "age": 81,
+    "gender": "Male",
+    "disease": "脑卒中后遗症"
+  },
+  {
+    "name": "陈英杰",
+    "age": 49,
+    "gender": "Male",
+    "disease": "单纯性肥胖"
+  },
+  {
+    "name": "Brenda Kelly",
+    "age": 58,
+    "gender": "Female",
+    "disease": "脂肪肝"
+  },
+  {
+    "name": "杨婷婷",
+    "age": 25,
+    "gender": "Female",
+    "disease": "痔疮"
+  },
+  {
+    "name": "Dennis Peterson",
+    "age": 65,
+    "gender": "Male",
+    "disease": "颈椎病"
+  },
+  {
+    "name": "赵明珠",
+    "age": 35,
+    "gender": "Female",
+    "disease": "慢性支气管炎"
+  },
+  {
+    "name": "Shirley Brooks",
+    "age": 75,
+    "gender": "Female",
+    "disease": "帕金森病"
+  },
+  {
+    "name": "黄家豪",
+    "age": 16,
+    "gender": "Male",
+    "disease": "结膜炎"
+  },
+  {
+    "name": "Jerry Flores",
+    "age": 87,
+    "gender": "Male",
+    "disease": "阿尔茨海默病"
+  },
+  {
+    "name": "周思雨",
+    "age": 6,
+    "gender": "Female",
+    "disease": "哮喘"
+  },
+  {
+    "name": "Deborah Bennett",
+    "age": 42,
+    "gender": "Female",
+    "disease": "高血压"
+  },
+  {
+    "name": "吴泽宇",
+    "age": 33,
+    "gender": "Male",
+    "disease": "糖尿病"
+  },
+  {
+    "name": "Raymond Barnes",
+    "age": 69,
+    "gender": "Male",
+    "disease": "冠心病"
+  },
+  {
+    "name": "徐欣怡",
+    "age": 20,
+    "gender": "Female",
+    "disease": "感冒"
+  },
+  {
+    "name": "Sharon Carter",
+    "age": 52,
+    "gender": "Female",
+    "disease": "胃炎"
+  },
+  {
+    "name": "孙宇轩",
+    "age": 78,
+    "gender": "Male",
+    "disease": "关节炎"
+  },
+  {
+    "name": "Cynthia Diaz",
+    "age": 38,
+    "gender": "Female",
+    "disease": "偏头痛"
+  },
+  {
+    "name": "马嘉怡",
+    "age": 63,
+    "gender": "Female",
+    "disease": "甲状腺功能减退"
+  },
+  {
+    "name": "Arthur Reynolds",
+    "age": 91,
+    "gender": "Male",
+    "disease": "脑卒中后遗症"
+  },
+  {
+    "name": "朱天宇",
+    "age": 28,
+    "gender": "Male",
+    "disease": "肾结石"
+  },
+  {
+    "name": "Kathleen Rodriguez",
+    "age": 71,
+    "gender": "Female",
+    "disease": "骨质疏松症"
+  },
+  {
+    "name": "胡诗涵",
+    "age": 45,
+    "gender": "Female",
+    "disease": "单纯性肥胖"
+  },
+  {
+    "name": "Scott Ward",
+    "age": 57,
+    "gender": "Male",
+    "disease": "脂肪肝"
+  },
+  {
+    "name": "郭子轩",
+    "age": 14,
+    "gender": "Male",
+    "disease": "肺炎"
+  },
+  {
+    "name": "Pamela Gray",
+    "age": 80,
+    "gender": "Female",
+    "disease": "白内障"
+  },
+  {
+    "name": "何雨欣",
+    "age": 36,
+    "gender": "Female",
+    "disease": "痔疮"
+  },
+  {
+    "name": "Terry Russell",
+    "age": 68,
+    "gender": "Male",
+    "disease": "颈椎病"
+  },
+  {
+    "name": "高梦瑶",
+    "age": 22,
+    "gender": "Female",
+    "disease": "荨麻疹"
+  }
+]
+```

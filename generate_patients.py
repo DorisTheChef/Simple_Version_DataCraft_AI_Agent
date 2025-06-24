@@ -2,6 +2,7 @@ import os
 import google.generativeai as genai
 import json
 import pandas as pd
+import re
 
 GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
 genai.configure(api_key=GOOGLE_API_KEY)
@@ -15,11 +16,18 @@ def generate_patients_with_gemini(count=10):
     model = genai.GenerativeModel("gemini-2.5-flash")
     response = model.generate_content(prompt)
     raw_text = response.text
-    print("Gemini返回内容：", raw_text)  # 新增这一行
+    print("Gemini返回内容：", raw_text)
+    # 尝试提取第一个 [ ... ] 之间的内容
+    match = re.search(r"\[.*\]", raw_text, re.DOTALL)
+    if match:
+        cleaned = match.group(0)
+    else:
+        cleaned = raw_text
+    print("清理后的内容：", cleaned)  # 新增这一行
     try:
-        patients = json.loads(raw_text)
-    except Exception:
-        print("无法解析为JSON,原始内容已返回。")
+        patients = json.loads(cleaned)
+    except Exception as e:
+        print("无法解析为JSON, 原因：", e)
         patients = None
     return raw_text, patients
 
