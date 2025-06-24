@@ -1,6 +1,7 @@
 import os
 import google.generativeai as genai
 import json
+import pandas as pd
 
 GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
 genai.configure(api_key=GOOGLE_API_KEY)
@@ -13,9 +14,25 @@ def generate_patients_with_gemini(count=10):
     )
     model = genai.GenerativeModel("gemini-2.5-flash")
     response = model.generate_content(prompt)
-    print("Gemini返回内容：", response.text)  # 新增这一行
+    raw_text = response.text
+    print("Gemini返回内容：", raw_text)  # 新增这一行
     try:
-        patients = json.loads(response.text)
+        patients = json.loads(raw_text)
     except Exception:
-        patients = response.text
-    return patients
+        print("无法解析为JSON,原始内容已返回。")
+        patients = None
+    return raw_text, patients
+
+if __name__ == "__main__":
+    count = 100  # 你可以根据需要修改生成数量
+    raw_text, patients = generate_patients_with_gemini(count)
+    with open("gemini_virtual_patients_raw.txt", "w", encoding="utf-8") as f:
+        f.write(raw_text)
+    print("已保存原始Gemini返回内容到 gemini_virtual_patients_raw.txt")
+    # 保存CSV
+    if patients and isinstance(patients, list):
+        df = pd.DataFrame(patients)
+        df.to_csv("gemini_virtual_patients.csv", index=False)
+        print(f"已生成 {len(df)} 条虚拟病人数据，并保存为 gemini_virtual_patients.csv")
+    else:
+        print("未能生成有效的病人数据。")
