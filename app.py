@@ -1,9 +1,15 @@
 from flask_cors import CORS
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, send_from_directory, send_file
 from generate_patients import generate_patients_with_gemini
+import os
 
 app = Flask(__name__)
 CORS(app)
+
+@app.route('/')
+def index():
+    """提供前端页面"""
+    return send_file('frontend/index.html')
 
 @app.route('/generate_patients', methods=['GET'])
 def generate_patients():
