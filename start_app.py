@@ -11,8 +11,8 @@ def open_frontend():
     webbrowser.open(f'file://{frontend_path}')
 
 if __name__ == '__main__':
-    print("🚀 启动虚拟病人生成器...")
-    print("📱 正在打开前端界面...")
+    print("🚀 Starting Virtual Patient Generator...")
+    print("📱 Opening frontend interface...")
     
     # Start frontend in a separate thread
     frontend_thread = threading.Thread(target=open_frontend)
@@ -20,10 +20,10 @@ if __name__ == '__main__':
     frontend_thread.start()
     
     # Start Flask backend
-    print("🔧 后端服务器启动中...")
-    print("🌐 访问地址: http://127.0.0.1:5001")
-    print("📋 API端点: http://127.0.0.1:5001/generate_patients")
-    print("⏹️  按 Ctrl+C 停止服务器")
+    print("🔧 Backend server starting...")
+    print("🌐 Access URL: http://127.0.0.1:5001")
+    print("📋 API Endpoint: http://127.0.0.1:5001/generate_patients")
+    print("⏹️  Press Ctrl+C to stop server")
     print("-" * 50)
     
     app.run(host='0.0.0.0', port=5001, debug=False) 

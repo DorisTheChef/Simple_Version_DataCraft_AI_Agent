@@ -8,7 +8,7 @@ CORS(app)
 
 @app.route('/')
 def index():
-    """提供前端页面"""
+    """Serve frontend page"""
     return send_file('frontend/index.html')
 
 @app.route('/generate_patients', methods=['GET'])

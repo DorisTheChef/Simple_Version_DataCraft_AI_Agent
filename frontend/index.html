@@ -2,13 +2,13 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>虚拟病人生成器</title>
+  <title>Virtual Patient Generator</title>
 </head>
 <body>
-  <h1>虚拟病人生成器</h1>
-  <label>生成数量: <input id="count" type="number" value="5" min="1" max="100"></label>
-  <button onclick="generatePatients()">生成</button>
-  <button onclick="downloadCSV()">下载CSV</button>
+  <h1>Virtual Patient Generator</h1>
+  <label>Generate Count: <input id="count" type="number" value="5" min="1" max="100"></label>
+  <button onclick="generatePatients()">Generate</button>
+  <button onclick="downloadCSV()">Download CSV</button>
   <pre id="result"></pre>
   <script>
     let lastData = [];
@@ -27,15 +27,15 @@
     }
 
     function downloadCSV() {
-    console.log(lastData); // 调试用
+    console.log(lastData); // Debug purpose
 
     if (!lastData.length) {
-        alert("请先生成数据！");
+        alert("Please generate data first!");
         return;
     }
     const headers = Object.keys(lastData[0]);
     const csvRows = [
-        headers.join(','), // 表头
+        headers.join(','), // Header row
         ...lastData.map(row => headers.map(h => `"${row[h]}"`).join(','))
     ];
     const csvContent = csvRows.join('\n');
@@ -45,9 +45,9 @@
     const a = document.createElement('a');
     a.href = url;
     a.download = 'patients.csv';
-    document.body.appendChild(a); // 关键：添加到DOM
+    document.body.appendChild(a); // Important: add to DOM
     a.click();
-    document.body.removeChild(a); // 关键：移除
+    document.body.removeChild(a); // Important: remove from DOM
     URL.revokeObjectURL(url);
     }
   </script>
